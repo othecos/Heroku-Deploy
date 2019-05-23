@@ -12,10 +12,6 @@ $ npm -v
 6.2.0
   ```
 ## Using the template
-  - **Install Dependencies** - You need to run npm install to use the required librarys
-  ```sh
-  $ npm install
-  ```
   - **Paste your code on the root folder** -  This templates will only serve the application for the Heroku required configurations, so you can get the files contained in this repo and paste on your project, or vice-versa
   
   ``The **/public** folder should have and **index.html** file``
@@ -33,7 +29,7 @@ $ npm -v
     - You should include the libraries used in the ``server/server.js `` right along with your applications dependencies, otherwise, the server won't run correctly.
     - Paste the scripts contained on the ``package.json`` file on yout package.json, they will be used by heroku to run the application
  - Angular.json: 
-    - The only configuration it's required to be modified is the outputPath, to output the build on the ``server/public``path.
+    - The only configuration it's required to be modified is the `outputPath`, to output the build on the ``server/public``path.
 
 ## Author
 #### Othecos
