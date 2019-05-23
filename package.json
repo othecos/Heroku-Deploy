@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "ng": "ng",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+
+        "web": "node server/server.js",
+        "start": "node server/server.js",
+        "postinstall": "ng build --aot --prod"
+    }
+}

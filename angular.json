@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "architect": {
+      "build": {
+        "options": {
+          "outputPath": "server/public"
+        }
+      }
+    }
+  }
+}
