@@ -26,13 +26,14 @@ $ npm -v
   or
   $ node server.js
   ```
-  - **And That`s it!** - The webserver will host the application on port 3000, you can change it if you want it on the server.js file
+  - **And That`s it!** - The webserver will host the application on port 8080, the default port for websites!
+  - ***Enjoy!!!***
 ## Important notes
  - Package.json : 
-    - You should include the libraries used in the server/server.js along with your applications dependencies, otherwise, the server won't run correctly.
+    - You should include the libraries used in the ``server/server.js `` right along with your applications dependencies, otherwise, the server won't run correctly.
     - Paste the scripts contained on the ``package.json`` file on yout package.json, they will be used by heroku to run the application
  - Angular.json: 
-    - The only configuration it's required to be changed is the outputPath, for the build to be outputed on the ``server/public``path.
+    - The only configuration it's required to be modified is the outputPath, to output the build on the ``server/public``path.
 
 ## Author
 #### Othecos
